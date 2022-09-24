@@ -1,0 +1,58 @@
+body {
+   
+  background-color: aquamarine;
+  text-align: center;
+
+  
+    
+  
+}
+
+@font-face {
+    font-family:Gasalt-Regular;
+    src: url(gasalt/Gasalt-Black.ttf);
+    
+  }
+
+  h1{
+    font-family:Gasalt-Regular;
+    text-transform: uppercase;
+    font-weight:900;
+  }
+div {
+    background-color: white;
+    box-shadow: 1px 1px 4px 4px gray;
+    height: 350px;
+    width: 700px;
+    padding: 100px;
+    margin-top: 120px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+#para1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+  }
+ img {
+    width: 2%;
+    height: auto;
+    border-radius: 20%;
+   }
+   #link:hover{
+    font-family: Arial;
+    background-color: blue;
+    lighting-color: white;
+    color: white;
+    width: 50;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+   }
